@@ -1,0 +1,35 @@
+{
+	"computers":
+	[
+		{
+			"id": 1,
+			"cpu": "Carolina",
+			"ram": "Dickerson",
+			"hdd": "Unisure"
+		},
+		{
+			"id": 2,
+			"cpu": "Robertson",
+			"ram": "Shepard",
+			"hdd": "Obones"
+		},
+		{
+			"id": 3,
+			"cpu": "Stephens",
+			"ram": "Salazar",
+			"hdd": "Neteria"
+		},
+		{
+			"id": 4,
+			"cpu": "Ora",
+			"ram": "Roberts",
+			"hdd": "Xyqag"
+		},
+		{
+			"id": 5,
+			"cpu": "Angela",
+			"ram": "Oconnor",
+			"hdd": "Hyplex"
+		}
+	]
+}

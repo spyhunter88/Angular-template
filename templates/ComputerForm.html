@@ -1,0 +1,21 @@
+<div class="col-sm-12">
+<form role="form">
+  <div class="form-group">
+    <label for="id">ID</label>
+    <input type="text" class="form-control" id="id" placeholder="ID" ng-model="computer.id" readonly="readonly"></input>
+  </div>
+  <div class="form-group">
+    <label for="cpu">CPU</label>
+    <input type="text" class="form-control" id="cpu" placeholder="Your CPU" ng-model="computer.cpu"></input>
+  </div>
+  <div class="form-group">
+    <label for="ram">RAM</label>
+    <input type="text" class="form-control" id="ram" placeholder="RAM" ng-model="computer.ram"></input>
+  </div>
+  <div class="form-group">
+    <label for="hdd">HDD</label>
+    <input type="text" class="form-control" id="hdd" placeholder="HDD" ng-model="computer.hdd"></input>
+  </div>
+  <button class="btn btn-default" ng-click="saveComputer()">Save</button>
+</form>
+</div>

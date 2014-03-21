@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="uiApp">
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Template</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="json-menu/css/bootstrap3-submenu.css" />
+    <link rel="stylesheet" type="text/css" href="json-menu/css/prettify.css" />
+
+    <script type="text/javascript" src="scripts/lib/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script data-require="angular.js@1.1.x" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js" data-semver="1.2.14"></script>
+    <script data-require="angular.js@1.1.x" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-route.js" data-semver="1.2.14"></script>
+    <script data-require="ui-bootstrap@0.5.0" data-semver="0.5.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+    <!--
+    <script src="angular/angular.min.js"></script>
+    <script src="angular/angular-route.min.js"></script>
+    <script src="ui-bootstrap/ui-bootstrap-0.10.0.min.js"></script>
+    <script src="ui-bootstrap/ui-bootstrap-tpls-0.10.0.min.js"></script>
+    -->
+    <script src="scripts/ui.bootstrap-app.js"></script>
+    <script type="text/javascript" src="scripts/computer/ComputerController.js"></script>
+    <script type="text/javascript" src="scripts/computer/route.js"></script>
+    <script type="text/javascript" src="json-menu/js/json-menu_bootstrap3.js"></script>
+    <script>// document.write('<base href="' + document.location + '" />');
+    $(document).ready(function() {
+
+    });
+    </script>
+
+  </head>
+
+  <body ng-controller="MainCtrl">
+  
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+    
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'" ng-click="navCollapsed=true">
+        <ul class="nav navbar-nav json-menu"></ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    
+    <p>Hello {{name}}!</p>
+    <div class="col-sm-9">
+       <ng-view></ng-view>
+    </div>
+  </body>
+</html>

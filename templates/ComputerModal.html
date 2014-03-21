@@ -1,0 +1,24 @@
+
+    <div class="modal-header">
+        <h3>This is a computer!</h3>
+    </div>
+    <div class="modal-body">
+
+      <div class="form-group">
+        <label for="cpu">CPU</label>
+        <input type="text" class="form-control" id="cpu" placeholder="Your CPU" ng-model="computer.cpu"></input>
+      </div>
+      <div class="form-group">
+        <label for="ram">RAM</label>
+        <input type="text" class="form-control" id="ram" placeholder="RAM" ng-model="computer.ram"></input>
+      </div>
+      <div class="form-group">
+        <label for="hdd">HDD</label>
+        <input type="text" class="form-control" id="hdd" placeholder="HDD" ng-model="computer.hdd"></input>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">OK</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
