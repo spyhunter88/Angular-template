@@ -54,6 +54,12 @@
         "parent_id": "-1",
         "id": "9",
     	"level": "0"
-	}
+	}, {
+        "name": "Claim",
+        "url": "#Claim",
+        "parent_id": "-1",
+        "id": "10",
+        "level": "0"
+    }
 	]
 }

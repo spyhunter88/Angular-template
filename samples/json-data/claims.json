@@ -1,0 +1,45 @@
+{
+	"claims":
+	[
+		{
+			"id": 1,
+			"vendor": "ASUS",
+			"bu": "F5",
+			"startDate": "02/15/2014",
+			"requireClaimDoc": true,
+			"note": ""
+		},
+		{
+			"id": 2,
+			"vendor": "DELL",
+			"bu": "F6",
+			"startDate": "01/15/2014",
+			"requireClaimDoc": false,
+			"note": "Can them mot vai cai nua"
+		},
+		{
+			"id": 3,
+			"vendor": "ASUS",
+			"bu": "F6",
+			"startDate": "02/20/2014",
+			"requireClaimDoc": true,
+			"note": ""
+		},
+		{
+			"id": 4,
+			"vendor": "ASUS",
+			"bu": "F6",
+			"startDate": "12/15/2013",
+			"requireClaimDoc": false,
+			"note": ""
+		},
+		{
+			"id": 5,
+			"vendor": "DELL",
+			"bu": "F5",
+			"startDate": "03/15/2014",
+			"requireClaimDoc": true,
+			"note": ""
+		}
+	]
+}

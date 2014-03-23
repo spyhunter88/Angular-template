@@ -7,7 +7,7 @@ app.controller('ComputerController', function($scope, $modal, $log) {
     	hdd: '1TB'
     };
 
-    $.getJSON('json-data/computers.json', function(data) {
+    $.getJSON('samples/json-data/computers.json', function(data) {
     	$scope.computers = data.computers;
     	$scope.$apply();
     });
@@ -19,7 +19,7 @@ app.controller('ComputerController', function($scope, $modal, $log) {
     $scope.editComputerModal = function(computer) {
         // alert('Save ' + computer.cpu);
         var modalInstance = $modal.open({
-          templateUrl: 'templates/ComputerModal.html',
+          templateUrl: 'partials/Computer/Modal.html',
           controller: ComputerModalCtrl,
           resolve: {
             computer: function () {
