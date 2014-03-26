@@ -1,4 +1,4 @@
-var app = angular.module('uiApp', ['ui.bootstrap', 'ngRoute', 'ui.bootstrap.transition']);
+var app = angular.module('uiApp', ['ui.bootstrap', 'ngRoute', 'ui.bootstrap.transition', 'ngTable']);
 
 app.controller('MainCtrl', function($scope) {
     $scope.name = 'World';
